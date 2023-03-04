@@ -14,7 +14,7 @@ const settings = {
 
 const Options = () => {
   return (
-    <Slider {...settings} className="w-1/3 m-auto lg:m-0">
+    <Slider {...settings} className="w-1/3 m-auto mt-5 lg:m-0 absolute left-0 bottom-16">
       <div className="text-center">
         <a href="#" className="block p-2 mx-5 px-5 lg:bg-gray-200 rounded-full">Reviews</a>
       </div>
