@@ -18,7 +18,7 @@ export default function Home() {
       <div className='md:px-32'>
       
       <Hero/>
-      <CompanyList/>
+      
       </div>
     </div>
     </div>

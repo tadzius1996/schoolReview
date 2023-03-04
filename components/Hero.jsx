@@ -7,7 +7,7 @@ import schoollogoo from '../public/schoollogoo.png'
 function Hero() {
   return (
     <>
-    <div className='h-[93vh] lg:h-[76vh] mt-12 flex flex-col lg:flex-row'>
+    <div className='pb-[-2rem] h-[76vh] md:h-[82vh] lg:h-[71vh] mt-12 flex flex-col lg:flex-row'>
       <div className="mx-auto text-center lg:text-left">
   <h1 className='text-6xl font-thin text-white text-center mb-5 lg:text-left'>Scouting Out The<br/><span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-blue-200 font-semibold text-8xl'>Best Schools</span><br/> <span className=' '>In Your Area</span><br/></h1>
   <p className='mt-7 lg:w-3/4 w-11/12 text-center lg:text-left text-lg font-semibold m-auto lg:m-0'>Discover a World of Possibilities, Where You Can Explore, Compare, and Choose from the Best Schools in Your Area - Let SchoolScout Help You Make Informed Decisions and Find the Perfect Fit for Your Aspirations.</p>
