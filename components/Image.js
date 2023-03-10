@@ -1,11 +1,14 @@
-import { urlFor } from "../sanity"
+import Image from 'next/image';
+import { urlFor } from '../sanity';
 
-const Image = ({ identifier, image }) => {
+const CustomImage = ({ identifier, image }) => {
+  const imageUrl = urlFor(image).auto('format').url();
+
   return (
-    <div className={identifier === "main-image" ? "main-image" : "image"}>
-      <img src={urlFor(image).auto("format")} />
+    <div className={identifier === 'main-image' ? 'main-image' : 'image'}>
+      <Image src={imageUrl} width={400} height={400} alt={image.alt} />
     </div>
-  )
-}
+  );
+};
 
-export default Image
+export default CustomImage;

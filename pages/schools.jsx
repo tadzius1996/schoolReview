@@ -108,8 +108,8 @@ function schools({schools}) {
       <div className='flex justify-center'>
   <Slider {...settings} className="w-full pt-5 lg:m-0">
   
-    {schools.map((school) => (
-      <div className="text-center px-3 relative">
+    {schools.map((school, key) => (
+      <div className="text-center px-3 relative" key={key}>
         <a href={`/school/${school.slug.current}`}>
       <Image
         identifier="main-image"

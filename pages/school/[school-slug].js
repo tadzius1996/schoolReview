@@ -93,8 +93,8 @@ const School = ({
           <h1 className="text-4xl font-semibold ">About</h1>
           <h4 className="flex-1 text-lg mt-3 w-1/2">{description}</h4>
         </div>
-        <div className="w-1/2 h-auto ">
-          <Image identifier="main-image" image={mainImage} />
+        <div className="w-full h-auto ">
+          <Image identifier="main-image" image={mainImage} alt='main-image'/>
         </div>
       </div>
 
